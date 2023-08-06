@@ -1,0 +1,58 @@
+*
+{
+	margin: 0px;
+}
+#hi
+{
+	margin-left: 500px;
+	margin-top: 100px;
+	padding: 100px;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(250, 0, 0, 0.3);
+	color: red;
+	text-align: center;
+}
+.header
+{
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+			
+}
+.sidebar
+{
+	bottom: 0px;
+	top: 0px;
+	float: left;
+	height: 71vh;
+	width: 100px;
+			
+}
+.aside
+{
+	bottom: 0px;
+	top: 0px;
+	float: right;
+	height: 71vh;
+	width: 100px;
+			
+}
+.footer
+{
+	left: 0px;
+	right: 0px;
+	float: left;
+	height: 100px;
+	width: 100%;
+	background: black;
+	color: white;
+	text-align: center;
+
+}
+.hello{
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	}

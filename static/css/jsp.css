@@ -1,0 +1,85 @@
+*
+{
+    margin:0px;
+}
+        /*.......Main Header.......*/
+header,footer
+{
+	background:linear-gradient(45deg,darkslategrey,violet);
+	padding:1rem;
+}
+header>h1
+{
+	color:white;
+}
+header>h1>span
+{
+	font-size:3rem!important;
+	color:orange;
+}
+		 /*.......Main Navbar.......*/
+ nav
+{
+	background:linear-gradient(45deg,violet,darkslategrey);
+	padding:1rem;
+	text-align:center;
+}
+nav>a 
+{
+	color:violet;
+	text-decoration:none;
+	font-size:20px;
+	margin:30px;
+	background-color:white;
+	padding:5px 10px;
+	border-radius:10px;
+}
+nav>a:hover
+{
+	box-shadow:0 0 10px white;
+}
+		 /*.......Sidebar.......*/
+aside
+{
+	background:linear-gradient(45deg,darkslategrey,violet);
+	padding:1rem;
+	width:200px;
+	height:100vh;
+	float:left;
+}
+aside>a 
+{
+    text-decoration:none;
+	color:violet;
+	background-color:white;
+	padding:5px 10px;
+	display:block;
+	text-align:center;
+	margin-bottom:60px;
+}
+		 /*.......Section.......*/
+section
+{
+    margin-left:230px;
+	background:linear-gradient(45deg,violet,darkslategrey);
+	color:white;
+	padding:20px;
+}
+section>article
+{
+	background-color:white;
+	color:violet;
+	padding:20px;
+	margin-bottom:20px;
+}
+		/*	Footer	 */
+footer
+{
+	text-align:center;
+	color:white;
+}
+footer>a 
+{
+	color:white;
+	font-size:30px;
+}

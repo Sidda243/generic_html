@@ -1,0 +1,72 @@
+*
+{
+	margin:0px;
+}
+body
+{
+	background:blue url("../../static/images/bi.jpeg") no-repeat 0px 0px fixed;
+	background-size:cover;
+}
+#reg-form
+{
+	background:linear-gradient(45deg,rgb(20,52,112),rgb(37,185,117),rgb(89,58,31));
+	padding:30px;
+	width:300px;
+	text-align:center;
+	margin:100px auto;
+/*	border:2px dotted white;*/
+	border-radius:10px;
+	box-shadow:0 0 10px white;
+	/*position:relative;
+	top:50px;
+	left:200px;*/
+}
+.form-group>input[type="text"],
+.form-group>input[type="password"],
+.form-group>textarea,
+.form-group>select
+{
+	width:230px;
+	height:27px;
+	border:none;
+	outline:none;
+	margin-bottom:17px;
+	background:transparent;
+	font-size:18px;
+	font-family:"comic sans ms",sans-serif;
+	color:white;
+	border-bottom:2px solid white;
+}
+::placeholder
+{
+	color:white;
+}
+.form-group>input[type="submit"]
+{
+	background:linear-gradient(135deg,rgb(20,52,112),rgb(37,185,117),rgb(89,58,31));
+	border:none;
+	outline:none;
+	width:230px;
+	color:white;
+	padding:7px 20px;
+	border-radius:10px;
+}
+.form-group>input[type="submit"]:hover
+{
+	box-shadow:0 0 10px white;
+	cursor:pointer;
+}
+#reg-form>#icon
+{
+	position:relative;
+	top:-80px;
+}
+#reg-form>#icon>span
+{
+	color:white;
+	font-size:100px;
+	border:10px solid rgb(37,185,117);
+	border-radius:100%;
+	box-shadow:0 0 10px white;
+}
+

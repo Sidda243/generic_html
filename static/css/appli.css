@@ -1,0 +1,38 @@
+body
+{
+	background: url("../images/w.jpeg") no-repeat fixed;
+	background-size: cover;
+}
+form
+{
+	color: white;
+	font-size: 18px;
+}
+form>fieldset>legend
+{
+	padding: 10px;
+	border: 3px solid;
+	border-radius: 0px 15px 0px 15px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+form>fieldset
+{
+	background-color: rgba(0,0,0,0.5);
+}
+h1
+{
+	color: red;
+}
+body .one 
+{
+	padding: 5px;
+	background-color: black;
+	color: white;
+	border-radius: 0px 15px 0px 15px;
+}
+#one:hover
+{
+	color: white;
+
+}

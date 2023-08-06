@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="{% static 'css/fa/css/all.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/arth.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'js/arth.js' %}">
+</head>
+<body>	
+	<div>
+	<div class="header">
+			
+	</div>
+	<div class="sidebar">
+	</div>
+	<div class="aside">
+	</div>
+	<div id="hi">
+		<input type="" name="" placeholder="Value of a : " class="hello">
+		<br>
+		<input type="" name="" placeholder="Value of b : " class="hello">
+		<br>
+		<span class="fa-solid fa-plus" onclick="add()"></span>
+		<span class="fa-solid fa-minus" onclick="sub()"></span>
+		<span class="fa-solid fa-xmark" onclick="mul()"></span>
+		<span class="fa-solid fa-divide" onclick="div()"></span>
+	</div>
+	<div class="footer">
+		<h1>Result:- <span id="one"></span></h1>
+		<script>
+		let result=document.querySelector('#one')
+		let a = Number(prompt('enter value of a'))
+		let b = Number(prompt('enter value of b'))
+		console.log(a,b)
+
+		function add()
+		{
+			let Addition = a+b 
+			result.innerText=Addition
+		}
+		function sub()
+		{
+			let Subtraction = a-b 
+			result.innerText=Subtraction
+		}
+		function mul()
+		{
+			let Multiplication = a*b 
+			result.innerText=Multiplication
+		}
+		function div()
+		{
+			let Division = a%b 
+			result.innerText=Division
+		}
+	</script>
+
+	</div>
+	</div>
+</body>
+</html>

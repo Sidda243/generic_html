@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th class="a" rowspan="2">S.NO</th>
+			<th class="b" rowspan="2">Day</th>
+			<th class="c" colspan="2">Class Timmings</th>
+			<th class="d" rowspan="2">Name Of Students</th>
+			<th class="a" rowspan="2">Marks</th>
+		</tr>
+		<tr>
+			<th class="d">Star</th>
+			<th class="c">End</th>
+		</tr>
+		<tr>
+			<td class="b">1</td>
+			<td class="d">Monday</td>
+			<td class="a" rowspan="3">8.00Am</td>
+			<td class="c" rowspan="3">4.00Pm</td>
+			<td class="b">Siddhu</td>
+			<td class="c">70</td>
+		</tr>
+		<tr>
+			<td class="a">2</td>
+			<td class="d">Tuesday</td>
+			<td class="b">manju</td>
+			<td class="c">85</td>
+		</tr>
+		<tr>
+			<td class="a">3</td>
+			<td class="c">wednesday</td>
+			<td class="d">Aravind</td>
+			<td class="b">80</td>
+		</tr>
+	</table>
+</body>
+</html>

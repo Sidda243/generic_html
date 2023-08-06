@@ -1,0 +1,247 @@
+*
+{
+	margin: 0px;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #0F1111;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+}
+img{
+	height: 45px;
+	width: 140px;
+
+}
+img:hover{
+	border: 2px solid white;
+}
+.loc i{
+	color: red;
+}
+p{
+	color: white;
+}
+.loc:hover{
+	border: 2px solid white;
+	padding: 8px;
+}
+.pe{
+	font-size: 12px;
+}
+.search{
+	width: 600px;
+	height: 40px;
+	display: flex;
+	border-style: none;
+}
+.par{
+	width: 52px;
+	height: 40px;
+	background-color: #f3f3f3;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;	
+}
+.para{
+	color: black;
+}
+.sear{
+	color: black;
+}
+.search-icon{
+	width: 45px;
+	height: 40px;
+	background-color: #febd69;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;	
+}
+.search-bar{
+	display: flex;
+	flex-grow: 1;
+}
+input{
+	width: 100%;
+	border-style: none;
+}
+.p{
+	color: white;
+}
+.pp:hover{
+	border: 2px solid white;
+	padding: 8px;
+}
+.p1{
+	color: white;
+}
+.p11:hover{
+	border: 2px solid white;
+	padding: 8px;
+}
+.cart-logo{
+	color: white;
+}
+.cart-logo i{
+	font-size: 30px;
+}
+.cart-logo:hover{
+	border: 2px solid white;
+	padding: 8px;
+}
+.loc{
+	display: flex;
+	align-items: center;
+}
+.main{
+	background-image: url("../images/flip-back.jpg");
+	height: 320px;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	
+}
+.back-images{
+	display: flex;
+}
+.back-images .imges{
+	width: 350px;
+	height: 350px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+.imges img{
+	width: 250px;
+	height: 250px;
+}
+.shop{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #BBBFBF;
+	flex-wrap: wrap;
+	row-gap: 10px;
+}
+.box{
+	width: 330px;
+	height: 350px;
+	background-color: white;
+	padding: 20px 0px 15px;
+}
+.container{
+	margin-left: 15px;
+}
+.box-image{
+	width: 300px;
+	height: 250px;
+}
+footer{
+	background-color: #232F3E;
+	height: 400px;
+}
+.bak{
+	background-color: #111;
+	color: white;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bak:hover{
+	cursor: pointer;
+}
+.foot{
+	display: flex;
+	justify-content: space-evenly;
+}
+.foot div{
+	color: white;
+	margin-top: 10px;
+}
+.ftr{
+	display: flex;
+	flex-direction: column;
+}
+.ftr p{
+	margin-top: 25px;
+}
+ul a{
+	color: #DDD;
+	text-decoration: none;
+	margin-top: 10px;
+}
+ul{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.menu i{
+	color: white;
+}
+.menu:hover{
+	border: 2px solid white;
+	padding: 8px;
+}
+.l-panel{
+	height: 40px;
+	background-color: #222f3d;
+	display: flex;
+	justify-content: space-evenly;
+	color: white;
+	align-items: center;
+}
+.op p{
+	color: white;
+	display: inline;
+	margin-left: 20px;
+}
+.op{
+	width: 70%;
+}
+.op p:hover{
+	border: 2px solid white;
+	padding: 4px;	
+}
+.r-panel p{
+	color: hsl(0, 0%, 90%);
+}
+.r-panel:hover{
+	border: 2px solid white;
+	padding: 8px;
+}
+
+ul a:hover{
+	text-decoration: underline;
+}
+.container a{
+	text-decoration: none;
+
+}
+.container a:hover{
+	text-decoration: underline;
+}
+.box-image:hover{
+	cursor: pointer;
+}
+.a{
+    background-image: url("../images/flip1.jpg");
+}
+.b{
+    background-image: url("../images/flip2.jpg");
+}
+.c{
+    background-image: url("../images/flip3.jpg")
+}
+.d{
+    background-image: url("../images/flip4.jpg");
+}

@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/convert.css' %}">
+  <script type="text/javascript">
+    function conv(){
+      let x=document.getElementById("dollar")
+      let k=x.value 
+      let rupees=k*74.5
+      let result=document.getElementById("result")
+      result.textContent = k + " dollars is equal to " + rupees + " Indian Rupees.";
+    }
+  </script>
+<body>
+  <div>
+    <h1>*Assignment3</h1>
+    <input type="number"name="" id="dollar" >
+    <button onclick="conv()">submit</button>
+    <p id="result"></p>
+  </div>
+</body>
+</html>
